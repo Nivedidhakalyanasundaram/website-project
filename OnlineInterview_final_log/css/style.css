@@ -1,0 +1,31 @@
+
+/*Responsive CSS*/
+
+
+
+.faq{list-style-type: none;}
+.faq li { padding: 20px; }
+
+.faq li.q {
+  background: #4FC2E;
+  font-weight: bold;
+  font-size: 120%;
+  border-bottom: 1px #ddd solid;
+  cursor: pointer;
+}
+
+.faq li.a {
+  background: #3BB0D6;
+  display: none;
+  color:#fff;
+}
+
+.rotate {
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+@media (max-width:800px) {
+
+#container { width: 90%; }
+}
